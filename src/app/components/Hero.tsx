@@ -21,7 +21,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 0.5 }}
             className="text-5xl font-bold mb-4 relative"
           >
-            Ishiwata Hikaru's Portfolio
+            Ishiwata Hikaru&apos;s Portfolio
           </motion.div>
           <motion.div
             initial={{ y: -50, opacity: 0 }}
