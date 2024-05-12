@@ -9,6 +9,7 @@ const Career = () => {
           <ul className="list-disc">
             <li className="mb-2">2023年 早稲田大学基幹理工学部入学</li>
             <li className="mb-2">2023年 42TOKYO入学</li>
+            <li className="mb-2">2024年 基幹理工学部情報理工学科進学</li>
           </ul>
         </div>
       </div>
