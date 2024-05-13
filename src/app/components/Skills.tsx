@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faJs } from "@fortawesome/free-brands-svg-icons";
 import { faC } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 
 const Skills = () => {
   return (
@@ -18,6 +19,20 @@ const Skills = () => {
             <p className="text-gray-300">React, Next.js</p>
           </div>
         </div>
+        <div className="flex items-center border rounded p-4 mt-2 hover:border-blue-400 transition duration-200">
+          <Image
+            src="/typescript.png"
+            width={50}
+            height={50}
+            alt="typescript logo"
+            className="size-12 mr-4"
+          />
+          <div>
+            <h2 className="text-xl font-bold">TypeScript</h2>
+            <p className="text-gray-300">React, Next.js</p>
+          </div>
+        </div>
+
         <div className="flex items-center border rounded p-4 my-2 hover:border-blue-200 transition duration-200">
           <FontAwesomeIcon icon={faC} className="size-12 mr-4 text-blue-200" />
           <div>

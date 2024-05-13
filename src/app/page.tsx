@@ -10,7 +10,9 @@ export default function Home() {
         <Hero />
       </div>
       <div className="text-white px-4 flex flex-col items-center lg:w-2/3 mx-auto">
-        <div className="sm:hidden">Ishiwata Hikaru&apos;s Portfolio</div>
+        <div className="sm:hidden text-2xl">
+          Ishiwata Hikaru&apos;s Portfolio
+        </div>
         <div className="flex flex-col md:flex-row w-full justify-between">
           <Career />
           <Skills />

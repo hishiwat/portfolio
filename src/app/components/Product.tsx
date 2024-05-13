@@ -17,7 +17,7 @@ const Product = () => {
   return (
     <div id="product" className="py-4 w-full">
       <h1 className="text-3xl font-bold mb-4">制作物</h1>
-      <div className="px-12">
+      <div className="sm:px-12">
         {Products.map((product) => (
           <div
             key={product.title}
